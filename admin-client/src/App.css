@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  width: 100%;
+}
+.sidebar {
+  background: rgb(202, 197, 197);
+  width: 300px;
+  height: 100vh;
+}
+.sidebar h1 {
+  text-align: center;
+  /* padding: 10px; */
+}
+.sidebar .head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  padding: 30px;
+}
+.right_body {
+    width: 100%;
+  padding: 20px;
+}
+
+.head h1{
+    color: olivedrab;
+}
+.list_links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    }
+    
+    .link {
+    text-decoration: none;
+    color: #000;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 15px;
+}
+
+.right_body h2{
+    text-align: center;
+    color: red;
+
+}
+
+.boxdiv{
+    gap: 20px;
+   display: flex;
+   padding-top: 30px;
+}
+.smallbox{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    padding: 30px 140px;
+    border-radius: 5px;
+    color: blanchedalmond;
+    font-size: 20px;
+}
+.table-container {
+  
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.table-container table{
+  width: 100%;
+}
+.table-container table td,.table-container table th{
+  padding: 10px;
+}
+
+
+.table-service{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+
+}
+.table-service table{
+  width: 100%;
+}
+.table-service table td,.table-service table th{
+  padding: 10px;
+}
+.createBtn{
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 20px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  
+}
+
+.table-product{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+
+}
+.table-product table{
+  width: 100%;
+}
+.table-product table td,.table-product table th{
+  padding: 10px;
+}{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+
+}
+.table-product table{
+  width: 100%;
+}
+.table-product table td,.table-product table th{
+  padding: 10px;
+}
+.creatpBtn{
+
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 20px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.service_row td{
+    height: 100px;
+}
+
+.servicebtn{
+  padding: 5px 10px;
+  color: white;
+  background-color: chocolate;
+  border-radius: 5px;
+  border: none;
+}
+.btntr{
+  width: 150px;
+
+}
+.btntd{
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+.popup_img{
+  width: 70px;
+}
+
+.table-service img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
